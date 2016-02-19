@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django.utils.safestring import mark_safe
 
 
 class Post(models.Model):
@@ -17,3 +18,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class MyModel(models.Model): 
+    my_textfield = models.TextField()
+
+    def display_my_safefield(self): 
+        return mark_safe(self.my_textfield)

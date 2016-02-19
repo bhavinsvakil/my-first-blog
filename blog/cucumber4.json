@@ -1,0 +1,4974 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Analytics Breakdown",
+    "line": 1,
+    "description": "",
+    "id": "analytics-breakdown",
+    "uri": "features/analytics_breakdown.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 3,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "output": [
+              "1 Workstation user params detected: [\"label_9808\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n(eval):1:in `process_watir_call'\n/var/lib/jenkins/workspace/orchard-master/tests/page_objects/workstation/login_page.rb:18:in `login_with'\n/var/lib/jenkins/workspace/orchard-master/tests/page_objects/workstation/login_page.rb:12:in `login_with_user_data'\n./features/support/world/login_helpers.rb:27:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/analytics_breakdown.feature:4:in `Given a Workstation label_9808 user'",
+              "duration": 182444090815
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 13,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;2",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n(eval):1:in `process_watir_call'\n/var/lib/jenkins/workspace/orchard-master/tests/page_objects/workstation/login_page.rb:18:in `login_with'\n/var/lib/jenkins/workspace/orchard-master/tests/page_objects/workstation/login_page.rb:12:in `login_with_user_data'\n./features/support/world/login_helpers.rb:27:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/analytics_breakdown.feature:4:in `Given a Workstation label_9808 user'",
+              "duration": 667623
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1374203
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1177170
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1100258
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 14,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;3",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 368805
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 698433
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Download Tracks broken down by Country",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Country"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1207043
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 695267
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 15,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;4",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 380018
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 725403
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Download Albums broken down by Imprint",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Albums"
+                },
+                {
+                  "offset": 38,
+                  "val": "Imprint"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1307036
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 637851
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 16,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;5",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 451205
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 648967
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Download Albums broken down by Artist",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Albums"
+                },
+                {
+                  "offset": 38,
+                  "val": "Artist"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1310707
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 588334
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 17,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;6",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 432943
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 752812
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Ad-Supported Audio Stream broken down by Release",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Ad-Supported Audio Stream"
+                },
+                {
+                  "offset": 48,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1213481
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 564884
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 18,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;7",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 444376
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 607627
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Ad-Supported Audio Stream broken down by Artist",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Ad-Supported Audio Stream"
+                },
+                {
+                  "offset": 48,
+                  "val": "Artist"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1240481
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 618051
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 19,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;8",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 334397
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 566924
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Subscription Audio Streams broken down by Genre",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Subscription Audio Streams"
+                },
+                {
+                  "offset": 49,
+                  "val": "Genre"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1231500
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 563362
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Channel Breakdowns",
+        "line": 20,
+        "description": "",
+        "id": "analytics-breakdown;channel-breakdowns;;9",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 428297
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 681431
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Subscription Audio Streams broken down by Imprint",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Subscription Audio Streams"
+                },
+                {
+                  "offset": 49,
+                  "val": "Imprint"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1154869
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected breakdown highlighted",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 565820
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Paginating Bar Chart",
+        "line": 22,
+        "description": "",
+        "id": "analytics-breakdown;paginating-bar-chart",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 266388
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 543892
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I set the Overview start date to 2014-05-01 and end date to 2014-06-01",
+            "line": 24,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 33,
+                  "val": "2014-05-01"
+                },
+                {
+                  "offset": 60,
+                  "val": "2014-06-01"
+                }
+              ],
+              "location": "features/step_definitions/analytics_steps.rb:193"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1063795
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1008180
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 26,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 529677
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the album column for the first page",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 880769
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the album column for the second page should not match it",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 962491
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I go back to the first page of the breakdown",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 802329
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the previous button is disabled and next button is enabled",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 907525
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see the original album column",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 876554
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "View By different period",
+        "line": 45,
+        "description": "",
+        "id": "analytics-breakdown;view-by-different-period;;2",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 340871
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 561500
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select a 3 Month period",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "3 Month"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 942499
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 512017
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 37,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 600024
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the total number of units sold for the time period",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 994450
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a 6 Month period",
+            "line": 39,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "6 Month"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1073532
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 590384
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the current period's total units should not equal the previous period's",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 905779
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "View By different period",
+        "line": 46,
+        "description": "",
+        "id": "analytics-breakdown;view-by-different-period;;3",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 379312
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 670780
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select a 6 Month period",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "6 Month"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 588573
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 502550
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 37,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 599065
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the total number of units sold for the time period",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 534835
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a 1 Year period",
+            "line": 39,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "1 Year"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1149143
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 538406
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the current period's total units should not equal the previous period's",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 569492
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "View By different period",
+        "line": 47,
+        "description": "",
+        "id": "analytics-breakdown;view-by-different-period;;4",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 417263
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 672845
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select a 1 Year period",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "1 Year"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 680879
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 612109
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 37,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 661668
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the total number of units sold for the time period",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 696810
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a 3 Year period",
+            "line": 39,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "3 Year"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1541617
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 747783
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the current period's total units should not equal the previous period's",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 704869
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "View By different period",
+        "line": 48,
+        "description": "",
+        "id": "analytics-breakdown;view-by-different-period;;5",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 536115
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 723552
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select a 3 Year period",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "3 Year"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 616843
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 540420
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 37,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 634068
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the total number of units sold for the time period",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 617088
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a 1 Month period",
+            "line": 39,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "1 Month"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1273532
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 563787
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the current period's total units should not equal the previous period's",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 814488
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "View By different period",
+        "line": 49,
+        "description": "",
+        "id": "analytics-breakdown;view-by-different-period;;6",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 420793
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 630278
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select a 1 Month period",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "1 Month"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 606281
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 556263
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 37,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 636975
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the total number of units sold for the time period",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 581055
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a 3 Month period",
+            "line": 39,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "3 Month"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 608210
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 561701
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the current period's total units should not equal the previous period's",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 636839
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Search 2 releases and verify breakdown total match with Channel total",
+        "line": 51,
+        "description": "",
+        "id": "analytics-breakdown;search-2-releases-and-verify-breakdown-total-match-with-channel-total",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 280663
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 52,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 506333
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I filter for releases: \"You Are My Little Bird\", \"If I Had a Hammer: Songs of Hope and Struggle\"",
+            "line": 53,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 13,
+                  "val": "releases"
+                },
+                {
+                  "offset": 23,
+                  "val": "\"You Are My Little Bird\", \"If I Had a Hammer: Songs of Hope and Struggle\""
+                }
+              ],
+              "location": "features/step_definitions/analytics_steps.rb:203"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1211675
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 54,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 543662
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I view Download Albums broken down by Release",
+            "line": 55,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Albums"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 942465
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see my chosen filter applied",
+            "line": 56,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:231"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 834631
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the total units should add up for both releases with data channel",
+            "line": 57,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:92"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1017480
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Download Tracks graph verification",
+        "line": 59,
+        "description": "",
+        "id": "analytics-breakdown;download-tracks-graph-verification",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 270693
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the Analytics Overview page",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 495299
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view Download Tracks broken down by Release",
+            "line": 61,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 7,
+                  "val": "Download Tracks"
+                },
+                {
+                  "offset": 38,
+                  "val": "Release"
+                }
+              ],
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 562756
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a single release",
+            "line": 62,
+            "match": {
+              "location": "features/step_definitions/analytics_breakdown_steps.rb:107"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 829644
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I use my browser's back button",
+            "line": 63,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 815748
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the download tracks graph should display correctly on the overview page",
+            "line": 64,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:335"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 996665
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Analytics Marketable Events",
+    "line": 2,
+    "description": "* \"Add Event\" on Workstation Analytics Overview page",
+    "tags": [
+      {
+        "name": "@analytics",
+        "line": 1
+      }
+    ],
+    "id": "analytics-marketable-events",
+    "uri": "features/analytics_marketable_events.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 5,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 6,
+            "output": [
+              "1 Workstation user params detected: [\"label_9808\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/analytics_marketable_events.feature:6:in `Given a Workstation label_9808 user'",
+              "duration": 7205754
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 545707
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Add then delete event",
+        "line": 9,
+        "description": "",
+        "id": "analytics-marketable-events;add-then-delete-event",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/analytics_marketable_events.feature:6:in `Given a Workstation label_9808 user'",
+              "duration": 433740
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Analytics Overview page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:279"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 284680
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I set the Overview start date to 2014-07-01 and end date to 2014-07-31",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 33,
+                  "val": "2014-07-01"
+                },
+                {
+                  "offset": 60,
+                  "val": "2014-07-31"
+                }
+              ],
+              "location": "features/step_definitions/analytics_steps.rb:193"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1185854
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply the selected filters",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/analytics_steps.rb:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 525713
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add an event",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/analytics_marketable_events_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 956182
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the event should be added",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/analytics_marketable_events_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 889798
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I delete the event",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/analytics_marketable_events_steps.rb:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 943203
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the event should be deleted",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/analytics_marketable_events_steps.rb:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 950898
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Cloud Search Benchmarking",
+    "line": 1,
+    "description": "",
+    "id": "cloud-search-benchmarking",
+    "uri": "features/cloud_search_benchmarking.feature"
+  },
+  {
+    "keyword": "Feature",
+    "name": "Create Volume",
+    "line": 2,
+    "description": "In order to create releases for a Volume\nAs a Film Client\nI want to create a Volume",
+    "tags": [
+      {
+        "name": "@rb",
+        "line": 1
+      },
+      {
+        "name": "@wsr",
+        "line": 1
+      }
+    ],
+    "id": "create-volume",
+    "uri": "features/create_volume.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 7,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "comments": [
+              {
+                "value": "# Ensure we are logged into a label with Film enabled!",
+                "line": 8
+              }
+            ],
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 9,
+            "output": [
+              "1 Workstation user params detected: [\"label_17194\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/create_volume.feature:9:in `Given a Workstation label_17194 user'",
+              "duration": 6814960
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Workstation::ArtistBuilderPage",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "Workstation::ArtistBuilderPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1021866
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Volume creation",
+        "line": 12,
+        "description": "",
+        "id": "create-volume;volume-creation",
+        "type": "scenario",
+        "steps": [
+          {
+            "comments": [
+              {
+                "value": "# Ensure we are logged into a label with Film enabled!",
+                "line": 8
+              }
+            ],
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/create_volume.feature:9:in `Given a Workstation label_17194 user'",
+              "duration": 334059
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Workstation::ArtistBuilderPage",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "Workstation::ArtistBuilderPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 265596
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I create a volume",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 865519
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the Artist Builder profile",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 960824
+            }
+          },
+          {
+            "comments": [
+              {
+                "value": "# cleanup",
+                "line": 15
+              }
+            ],
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 16,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 928561
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I delete the volume in OA",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 915762
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Volume - no name provided",
+        "line": 19,
+        "description": "",
+        "id": "create-volume;volume---no-name-provided",
+        "type": "scenario",
+        "steps": [
+          {
+            "comments": [
+              {
+                "value": "# Ensure we are logged into a label with Film enabled!",
+                "line": 8
+              }
+            ],
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 289961
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Workstation::ArtistBuilderPage",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "Workstation::ArtistBuilderPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 264655
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I attempt to create a volume with no name",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1235092
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see a validation error",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 824774
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Volume - cancel creation",
+        "line": 23,
+        "description": "",
+        "id": "create-volume;volume---cancel-creation",
+        "type": "scenario",
+        "steps": [
+          {
+            "comments": [
+              {
+                "value": "# Ensure we are logged into a label with Film enabled!",
+                "line": 8
+              }
+            ],
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 293206
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Workstation::ArtistBuilderPage",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "Workstation::ArtistBuilderPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 318397
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I begin to create a volume",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 882065
+            }
+          },
+          {
+            "keyword": "But ",
+            "name": "I close the form",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 966188
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the Artist Builder home page",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1301407
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Create New Artist",
+        "line": 28,
+        "description": "",
+        "id": "create-volume;create-new-artist",
+        "type": "scenario",
+        "steps": [
+          {
+            "comments": [
+              {
+                "value": "# Ensure we are logged into a label with Film enabled!",
+                "line": 8
+              }
+            ],
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 357414
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the Workstation::ArtistBuilderPage",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "Workstation::ArtistBuilderPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 315970
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I create a new artist",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 820282
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should be on the edit artist page",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/create_volume_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1015406
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Delete Releases in Workstation",
+    "line": 2,
+    "description": "In order to delete existing releases\nAs a label user\nI want to search Release Builder for releases to delete",
+    "tags": [
+      {
+        "name": "@rb",
+        "line": 1
+      },
+      {
+        "name": "@wsr",
+        "line": 1
+      }
+    ],
+    "id": "delete-releases-in-workstation",
+    "uri": "features/delete_releases_in_workstation.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 7,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_7123 user",
+            "line": 8,
+            "output": [
+              "1 Workstation user params detected: [\"label_7123\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_7123"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/delete_releases_in_workstation.feature:8:in `Given a Workstation label_7123 user'",
+              "duration": 6777626
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Delete specified number of test releases that match the term",
+        "line": 10,
+        "description": "",
+        "id": "delete-releases-in-workstation;delete-specified-number-of-test-releases-that-match-the-term",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_7123 user",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_7123"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/delete_releases_in_workstation.feature:8:in `Given a Workstation label_7123 user'",
+              "duration": 371889
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I search for releases in Workstation matching the term 'watir'",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 56,
+                  "val": "watir"
+                }
+              ],
+              "location": "features/step_definitions/search_releases_in_workstation_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1115333
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I delete 1 release in Release Builder",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 9,
+                  "val": "1"
+                }
+              ],
+              "location": "features/step_definitions/delete_releases_in_workstation_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1013293
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "value": "# TODO: reenable this feature so we have cov against Edit Track modal",
+        "line": 1
+      }
+    ],
+    "keyword": "Feature",
+    "name": "Delete Track",
+    "line": 3,
+    "description": "In order to correctly organize the tracks on a release\nAs a label user\nI want to be able to delete a track from a release\n* NOTE: This feature uses label 7123",
+    "tags": [
+      {
+        "name": "@rb",
+        "line": 2
+      },
+      {
+        "name": "@wsr",
+        "line": 2
+      }
+    ],
+    "id": "delete-track",
+    "uri": "features/delete_track.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 9,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 10,
+            "output": [
+              "1 Workstation user params detected: [\"label_17194\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/delete_track.feature:10:in `Given a Workstation label_17194 user'",
+              "duration": 7359834
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "there are already tracks on a release",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 2067920
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Deleting a track - cancelling",
+        "line": 14,
+        "description": "",
+        "tags": [
+          {
+            "name": "@cache_warm",
+            "line": 13
+          }
+        ],
+        "id": "delete-track;deleting-a-track---cancelling",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:20:in `block in login_to_workstation_as'\n./features/support/world/login_helpers.rb:18:in `login_to_workstation_as'\n./features/step_definitions/common_steps.rb:43:in `/^a Workstation (\\S+)( \\S+)? user$/'\nfeatures/delete_track.feature:10:in `Given a Workstation label_17194 user'",
+              "duration": 455777
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "there are already tracks on a release",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 310256
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I delete a track from the release",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1955213
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I confirm I want to cancel deletion",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1382391
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see that the track is still on the release",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1056397
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Deleting a track",
+        "line": 19,
+        "description": "",
+        "id": "delete-track;deleting-a-track",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_17194 user",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_17194"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 426946
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "there are already tracks on a release",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 516472
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I delete a track from the release",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 677371
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I confirm I want to delete the track",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1106516
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the status of the deletion process",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1165917
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see that the deleted track is no longer in the release",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/delete_track_steps.rb:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1098577
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Generate Checks",
+    "line": 1,
+    "description": "In order to ensure the accuracy and reliability of accounting data\nAs an OA User\nI want to generate checks",
+    "id": "generate-checks",
+    "uri": "features/generate_checks.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 6,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "output": [
+              "1 OA user params detected: [\"Technology_manager\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/generate_checks.feature:7:in `Given an OA Technology_manager user'",
+              "duration": 7056796
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Generate check",
+        "line": 9,
+        "description": "",
+        "id": "generate-checks;generate-check",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/generate_checks.feature:7:in `Given an OA Technology_manager user'",
+              "duration": 544355
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "A label with an outstanding balance for the current quarter",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:129"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1365569
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate a check for that label",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1270790
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I process the check",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:161"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1320660
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I cut the check",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:170"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1358687
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I search for the check",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1006516
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the check",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1188144
+            }
+          },
+          {
+            "comments": [
+              {
+                "value": "# delete new check",
+                "line": 16
+              }
+            ],
+            "keyword": "Given ",
+            "name": "I have an up-to-date UploadCheckDeletion template",
+            "line": 17,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 21,
+                  "val": "UploadCheckDeletion"
+                }
+              ],
+              "location": "features/step_definitions/accounting_checks_steps.rb:84"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1468735
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I delete the check",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:185"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1224683
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I search for the check",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 695878
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the Check Payable Results page with no results",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/accounting_checks_steps.rb:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1358960
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Label Audit",
+    "line": 1,
+    "description": "In order to perform a comprehensive analysis of a label's assets in the Orchard system\nas a video services team member\nI need to generate a label audit",
+    "id": "label-audit",
+    "uri": "features/label_audit.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "Access Manage YouTube Channels page",
+        "line": 6,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 726042
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "OA Bulk Update Track Licensing",
+    "line": 2,
+    "description": "In order to edit and enter track info through bulk upload\nas an OA Technology_manager user\nI need to be able to bulk upload in OA upload track page",
+    "tags": [
+      {
+        "name": "@oa_release",
+        "line": 1
+      }
+    ],
+    "id": "oa-bulk-update-track-licensing",
+    "uri": "features/oa_bulk_update_track_licensing.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 7,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 8,
+            "output": [
+              "1 OA user params detected: [\"Technology_manager\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/oa_bulk_update_track_licensing.feature:8:in `Given an OA Technology_manager user'",
+              "duration": 6996555
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the OA::UploadTrackLicensingPage",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::UploadTrackLicensingPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1455874
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Valid track info in .xls format (previous version 1.0)",
+        "line": 11,
+        "description": "",
+        "id": "oa-bulk-update-track-licensing;valid-track-info-in-.xls-format-(previous-version-1.0)",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/oa_bulk_update_track_licensing.feature:8:in `Given an OA Technology_manager user'",
+              "duration": 324247
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the OA::UploadTrackLicensingPage",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::UploadTrackLicensingPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 536420
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I upload a valid 1.0 OA track meta spreadsheet",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1486471
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see an invalid OA bulk update spreadsheet error",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1513306
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Valid track info in .txt format (previous version 1.0)",
+        "line": 15,
+        "description": "",
+        "id": "oa-bulk-update-track-licensing;valid-track-info-in-.txt-format-(previous-version-1.0)",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 266358
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the OA::UploadTrackLicensingPage",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::UploadTrackLicensingPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 512149
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I upload a valid 1.0 OA track meta txt",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1110430
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see an invalid OA bulk update spreadsheet error",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 773203
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Valid track info in .xls format (current version 1.1)",
+        "line": 19,
+        "description": "",
+        "id": "oa-bulk-update-track-licensing;valid-track-info-in-.xls-format-(current-version-1.1)",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 608104
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the OA::UploadTrackLicensingPage",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::UploadTrackLicensingPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 232572
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I upload a valid 1.1 OA track meta spreadsheet",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1952707
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see success notification \"Updates successfully completed.\"",
+            "line": 21,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 35,
+                  "val": "Updates successfully completed."
+                }
+              ],
+              "location": "features/step_definitions/oa_edit_track_steps.rb:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1326504
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see the xls data reflected on the edit track page",
+            "line": 22,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 17,
+                  "val": "xls"
+                }
+              ],
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1436868
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Valid track info in .txt format (current version 1.1)",
+        "line": 24,
+        "description": "",
+        "id": "oa-bulk-update-track-licensing;valid-track-info-in-.txt-format-(current-version-1.1)",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 310246
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the OA::UploadTrackLicensingPage",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::UploadTrackLicensingPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 272906
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I upload a valid 1.1 OA track meta txt",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1361827
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see success notification \"Updates successfully completed.\"",
+            "line": 26,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 35,
+                  "val": "Updates successfully completed."
+                }
+              ],
+              "location": "features/step_definitions/oa_edit_track_steps.rb:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 879628
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see the txt data reflected on the edit track page",
+            "line": 27,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 17,
+                  "val": "txt"
+                }
+              ],
+              "location": "features/step_definitions/oa_bulk_update_track_licensing_steps.rb:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1243211
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Release Approval",
+    "line": 1,
+    "description": "",
+    "id": "release-approval",
+    "uri": "features/release_approval.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 3,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 4,
+            "output": [
+              "1 OA user params detected: [\"Technology_manager\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/release_approval.feature:4:in `Given an OA Technology_manager user'",
+              "duration": 6775521
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Access release checkout page",
+        "line": 6,
+        "description": "",
+        "id": "release-approval;access-release-checkout-page",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/release_approval.feature:4:in `Given an OA Technology_manager user'",
+              "duration": 339003
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the OA::RelationshipsPage",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::RelationshipsPage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1845326
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I can access the release approval checkout page",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1356216
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Check out and check in release",
+        "line": 11,
+        "description": "",
+        "tags": [
+          {
+            "name": "@cache_warm",
+            "line": 10
+          }
+        ],
+        "id": "release-approval;check-out-and-check-in-release",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 260550
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I am on the OA::CheckOutReleasePage",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 12,
+                  "val": "OA::CheckOutReleasePage"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1111377
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "A release available for checkout",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1144683
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I check out the release",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1996064
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I am on the release approval page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1438038
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I check in the release",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1393817
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Submit Release",
+    "line": 1,
+    "description": "* Using a special release with assets on QAorch (UPC: 664687000120)\n* Login to Amazing Grease label (username: mdrake), then click \"Copy Release\" on:\n* http://workstation.qaorch.com/releasebuilder/view?release_id=470042",
+    "id": "submit-release",
+    "uri": "features/submit_release.feature",
+    "elements": [
+      {
+        "comments": [
+          {
+            "value": "# Currently hijacks audio RB 2.0 after adding tracks for delivery purposes. Unwip RB 2.0 when submission is fixed!",
+            "line": 26
+          }
+        ],
+        "keyword": "Scenario",
+        "name": "Create, submit, and deliver an audio release",
+        "line": 27,
+        "description": "",
+        "id": "submit-release;create,-submit,-and-deliver-an-audio-release",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_16156 user",
+            "line": 28,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_16156"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 2079763
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter required audio release data for the new release builder",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/audio_release_builder_2_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1105986
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the view release page",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/audio_release_builder_2_steps.rb:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1152178
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I upload the album artwork",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/audio_release_builder_2_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1137200
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add 2 new tracks to the release",
+            "line": 32,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "2"
+                }
+              ],
+              "location": "features/step_definitions/audio_release_builder_2_steps.rb:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1126031
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I view the release through the classic release builder",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/audio_release_builder_steps.rb:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1120002
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the release should be submittable",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/audio_release_builder_steps.rb:133"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1075455
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 35,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 660062
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I look for the release in Release Approval",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/audio_release_builder_steps.rb:152"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1111941
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I check out the release",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 611451
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I can successfully deliver the release",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/release_approval_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1133667
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Vendor Contract",
+    "line": 1,
+    "description": "In order to ensure I can add, view and edit the contract page\nas an OA user\nI need to verify everything in OA add, view and edit contract page",
+    "id": "vendor-contract",
+    "uri": "features/vendor_contract.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 6,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "output": [
+              "1 OA user params detected: [\"Technology_manager\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/vendor_contract.feature:7:in `Given an OA Technology_manager user'",
+              "duration": 6582556
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the vendor page for a valid vendor",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1227872
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Verify by creating label vendor contract",
+        "line": 10,
+        "description": "",
+        "id": "vendor-contract;verify-by-creating-label-vendor-contract",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/vendor_contract.feature:7:in `Given an OA Technology_manager user'",
+              "duration": 332456
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the vendor page for a valid vendor",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 223450
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I create the label vendor contract",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1154554
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the label vendor contract should be created",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1208361
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Verify editing and updating the label contract info",
+        "line": 14,
+        "description": "",
+        "id": "vendor-contract;verify-editing-and-updating-the-label-contract-info",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 399675
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the vendor page for a valid vendor",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 230104
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I update the active label contract info",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1157363
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the label contract info should successfully updated with success message",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 900798
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "should see newly edited contract info reflected",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 883002
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Verify creating the label draft contract",
+        "line": 19,
+        "description": "",
+        "id": "vendor-contract;verify-creating-the-label-draft-contract",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 271165
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the vendor page for a valid vendor",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 313911
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I create the label draft contract",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 990732
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the label draft contract should be created",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 984778
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "should see newly added draft contract info reflected",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1137461
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit draft contract for approval",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:65"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1094283
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the draft contract should be awaiting approval",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/vendor_contract_steps.rb:69"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 955953
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Video Content Report",
+    "line": 1,
+    "description": "In order to ensure I can create a video content report\nIn OA\nI need to check video content report process",
+    "id": "video-content-report",
+    "uri": "features/video_content_report.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Fill out video content report",
+        "line": 6,
+        "description": "",
+        "id": "video-content-report;fill-out-video-content-report",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 764306
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the video content page",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1098750
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill out the form to generate a video content report",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 2448329
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should be able to download a video content report",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1184121
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Fill out TV content report",
+        "line": 12,
+        "description": "",
+        "id": "video-content-report;fill-out-tv-content-report",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 13,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 740336
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the video content page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 495816
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill out the form to generate a TV content report",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1135651
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should be able to download a video content report",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 578245
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Check date validation",
+        "line": 18,
+        "description": "",
+        "id": "video-content-report;check-date-validation",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 19,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 649161
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the video content page",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 755051
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter an invalid date",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1063560
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should get an error that a content report cannot be made with an invalid date",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/video_content_report_steps.rb:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 950052
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Workstation Release Status Navigation",
+    "line": 1,
+    "description": "",
+    "id": "workstation-release-status-navigation",
+    "uri": "features/workstation_release_status_navigation.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "line": 3,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a Workstation label_9808 user",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 14,
+                  "val": "label_9808"
+                },
+                {
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 593680
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "XML Library Ideas Film",
+    "line": 2,
+    "description": "In order to ensure Library Ideas Film XML is valid",
+    "tags": [
+      {
+        "name": "@xml",
+        "line": 1
+      }
+    ],
+    "id": "xml-library-ideas-film",
+    "uri": "features/xml_library_ideas_film.feature",
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "Library Ideas Film XMLTest",
+        "line": 5,
+        "description": "",
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "output": [
+              "1 OA user params detected: [\"Technology_manager\"]"
+            ],
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/xml_library_ideas_film.feature:6:in `Given an OA Technology_manager user'",
+              "duration": 6099640
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1047411
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 931355
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 768775
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Has a title node",
+        "line": 11,
+        "description": "",
+        "id": "xml-library-ideas-film;has-a-title-node",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'\nSystem info: host: 'SELENIUM-NODE03', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'\nDriver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException) (Selenium::WebDriver::Error::UnknownError)\n./features/support/world/login_helpers.rb:5:in `block in login_to_oa_as'\n./features/support/world/login_helpers.rb:4:in `login_to_oa_as'\n./features/step_definitions/common_steps.rb:34:in `/^an OA (\\S+) user$/'\nfeatures/xml_library_ideas_film.feature:6:in `Given an OA Technology_manager user'",
+              "duration": 481439
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 324377
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 291555
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 237779
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the XML should have a title tag",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 22,
+                  "val": "title"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1173449
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "there should be a titleinfo parent node with a title child node",
+            "line": 13,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "titleinfo"
+                },
+                {
+                  "offset": 47,
+                  "val": "title"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 864772
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Has a Synopses node",
+        "line": 15,
+        "description": "",
+        "id": "xml-library-ideas-film;has-a-synopses-node",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 256531
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 249209
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 246706
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 264629
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "there should be a titleinfo parent node with a synopses child node",
+            "line": 16,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "titleinfo"
+                },
+                {
+                  "offset": 47,
+                  "val": "synopses"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 904410
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Has a Long Synopses node",
+        "line": 18,
+        "description": "",
+        "id": "xml-library-ideas-film;has-a-long-synopses-node",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 294878
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 234668
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 260653
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 268706
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "there should be a synopses parent node with a long child node",
+            "line": 19,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "synopses"
+                },
+                {
+                  "offset": 46,
+                  "val": "long"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 902528
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Has a Short Synopses node",
+        "line": 21,
+        "description": "",
+        "id": "xml-library-ideas-film;has-a-short-synopses-node",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 273227
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 256397
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 293609
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 230993
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "there should be a synopses parent node with a short child node",
+            "line": 22,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "synopses"
+                },
+                {
+                  "offset": 46,
+                  "val": "short"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1077167
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Has a movie node",
+        "line": 24,
+        "description": "",
+        "id": "xml-library-ideas-film;has-a-movie-node",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 304080
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 260005
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 233194
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 218808
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the XML should have a movie tag",
+            "line": 25,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 22,
+                  "val": "movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 884858
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Has a video node that has a rating subnode",
+        "line": 27,
+        "description": "",
+        "id": "xml-library-ideas-film;has-a-video-node-that-has-a-rating-subnode",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "an OA Technology_manager user",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Technology_manager"
+                }
+              ],
+              "location": "features/step_definitions/common_steps.rb:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 264403
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I am on the release metadata generator page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 300662
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I generate film XML for Library Ideas (Video) Movie",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 24,
+                  "val": "Library Ideas (Video) Movie"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 364968
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the XML from the page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/common_xml_steps.rb:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 351147
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "there should be a movie parent node with a rating child node",
+            "line": 28,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "movie"
+                },
+                {
+                  "offset": 43,
+                  "val": "rating"
+                }
+              ],
+              "location": "features/step_definitions/common_xml_steps.rb:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1017073
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
